@@ -1,0 +1,290 @@
+html, body {
+ overflow-x: hidden;
+}
+body {
+ background-color: #fff;
+ position: relative;
+}
+section {
+ padding-top: 100px;
+ padding-bottom: 100px;
+}
+form small {
+ font-family: "Poppins";
+ font-weight: 400;
+}
+.navbar {
+ border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+ color: #243E36 !important;
+ font-family: "Lilita One";
+ font-size: 38px;
+}
+.navbar .nav-link {
+ font-family: "Montserrat Alternates";
+}
+.navbar-light .navbar-nav .nav-link.active {
+ color: #753742;
+}
+
+#home {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 32px;
+    font-family: "Balsamiq Sans";
+   }
+
+.text1 {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+   }
+.text2 {
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 42px;
+   }
+.text3 {
+    padding-bottom: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #243E36;
+   }
+
+#aboutme {
+    background-color: #E0EEC6;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right;
+    display: flex;
+    background-attachment: inherit;
+    align-items: center;
+    padding: 5%;
+   }
+#aboutme p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    color: #243E36;
+   }
+#aboutme h3 {
+    font-family: "Balsamiq Sans";
+    color: #243E36;
+   }
+
+.section-intro {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+   }
+
+.section-intro p {
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 400;
+    color: #243E36;
+   }
+
+.row1 {
+    display: flex;
+    line-height: 1.5;
+    text-align: center;
+    padding: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: #F1F7ED;
+    background-position: center center;
+    align-items: center;
+    border: 2px solid rgba(128, 128, 128, 0.185);
+    position: relative;
+    color: #243E36;
+   }
+
+.Figma {
+    flex: 1;
+    padding: 5px;
+}
+
+.divider {
+    border-left: 1px solid #000;
+    height: 100%;
+}
+
+.row2 {
+    display: flex;
+    line-height: 1.5;
+    text-align: center;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #F1F7ED;
+    background-position: center center;
+    align-items: center;
+    border: 2px solid rgba(128, 128, 128, 0.185);
+    position: relative;
+    color: #243E36;
+}
+
+.StudyBuddy {
+    flex: 1;
+    padding: 5px;
+}
+
+.divider {
+    border-left: 1px solid #000;
+    height: 100%;
+}
+.row3 {
+    display: flex;
+    line-height: 1.5;
+    text-align: center;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #F1F7ED;
+    background-position: center center;
+    align-items: center;
+    border: 2px solid rgba(128, 128, 128, 0.185);
+    position: relative;
+    color: #243E36;
+   }
+
+    .Linktree {
+    flex: 1;
+    padding: 5px;
+    }
+
+    .divider {
+    border-left: 1px solid #000;
+    height: 100%;
+    }
+    .row4 {
+    display: flex;
+    line-height: 1.5;
+    text-align: center;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #F1F7ED;
+    background-position: center center;
+    align-items: center;
+    border: 2px solid rgba(128, 128, 128, 0.185);
+    position: relative;
+    color: #243E36;
+    }
+
+    .Invicro {
+    flex: 1;
+    padding: 5px;
+    }
+
+    .divider {
+    border-left: 1px solid #000;
+    height: 100%;
+    }
+
+    .col-lg-6 {
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    } 
+    .row5 {
+    display: flex;
+    line-height: 1.5;
+    text-align: center;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #F1F7ED;
+    background-position: center center;
+    align-items: center;
+    border: 2px solid rgba(128, 128, 128, 0.185);
+    position: relative;
+    color: #243E36;
+   }
+
+    .col-lg-12 {
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    } 
+
+ /* Testimonials */
+ #testimonials{
+    text-align: center;
+    background-color: #E0EEC6;
+    padding: 7% 15%;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+  }
+  
+  .carousel-item{
+    padding: 7% 15%;
+    color: #243E36;
+  }
+  
+  .testimonial-image{
+    width: 30%;
+    margin: 30px;
+  }
+#contact1 {
+    background-color: #7CA982;
+    background-image: url("../Vector.svg");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center center;
+    display: flex;
+    background-attachment: inherit;
+    align-items: center;
+    padding-top: 4%;
+    margin: 0;
+    width: 100%;
+    margin-top: 5%;
+    color: #fff;
+   }
+#contact h3 {
+    font-family: "Balsamiq Sans";
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+   }
+#contact p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+   }
+
+   @media screen and (max-width: 990px) {
+    .message-img {
+    display: none;
+     }
+   }
+
+/* Footer */
+  #footer{
+    padding: 7% 15%;
+    text-align: center;
+  }
+  
+  .social-icon{
+    margin: 20px 10px;
+  }
+
+  /* Media Query */
+
+@media (max-width: 1028px){
+
+    #title{
+      text-align: center;
+    }
+    .title-image{
+      position: static;
+      transform: rotate(0);
+    }
+  }  
+
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Lilita+One&family=Montserrat+Alternates:wght@600;700&family=Poppins&display=swap");
